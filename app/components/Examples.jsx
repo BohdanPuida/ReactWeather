@@ -1,7 +1,12 @@
 var React = require('react');
 
 var Examples = () => {
-  return <h3> Examples component!</h3>
+  return (
+    <div>
+      <h3> Examples component!</h3>
+      <h4> Welcome </h4>
+    </div>
+  );
 }
 
 module.exports = Examples;
